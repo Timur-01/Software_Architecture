@@ -36,9 +36,7 @@ public class ModelStore implements IModelChanger {
         return null;
     }
 
-    /*
-     * метод регистрации изменений
-     */
+   
     @Override
     public void NotifyChange(IModelChanger sender) {
         // TODO Auto-generated method stub
