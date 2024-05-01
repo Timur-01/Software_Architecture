@@ -10,7 +10,8 @@ public class PoligonalModel {
 
 
      public PoligonalModel(List<Texture> Textures) {
-        this.Poligons = new ArrayList<>();
-        this.Textures = Textures;
+         this.Textures = Textures;
+         this.Poligons = new ArrayList<>();
+         this.Poligons.add(new Poligon());
     }
     }

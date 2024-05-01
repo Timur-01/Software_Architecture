@@ -8,12 +8,12 @@ public class Camera {
     public Angle3D Angle;
 
 
-    public void rotate(Angle3D angle) {
+    public void rotate(Angle3D angleAction) {
 
     }
 
 
-    public void move(Point3D point) {
+    public void move(Point3D pointAction) {
 
     }
 }

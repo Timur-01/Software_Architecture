@@ -7,16 +7,16 @@ import Editor3D.Staff.Point3D;
 public class Flash {
     public Point3D Location;
     public Angle3D Angle;
-    public Color Color;
+    public java.awt.Color Color;
     public Float Power;
 
 
-    public void rotate(Angle3D angle) {
+    public void rotate(Angle3D angleAction) {
 
     }
 
 
-    public void move(Point3D point) {
+    public void move(Point3D pointAction) {
 
     }
 }

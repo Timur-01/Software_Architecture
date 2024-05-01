@@ -22,7 +22,7 @@ public class ModelStore implements IModelChanger {
         this.scenes = new ArrayList<Scene>();
         this.flashes = new ArrayList<Flash>();
         this.cameras = new ArrayList<Camera>();
-        models.add(new PoligonalModel(null));
+        this.models.add(new PoligonalModel(null));
 
         scenes.add(new Scene(0, models, flashes, cameras));
 
@@ -36,7 +36,9 @@ public class ModelStore implements IModelChanger {
         return null;
     }
 
-   
+    /*
+     * метод регистрации изменений
+     */
     @Override
     public void NotifyChange(IModelChanger sender) {
         // TODO Auto-generated method stub
